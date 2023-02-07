@@ -21,6 +21,7 @@
     flex-direction: row;
     flex: 1;
     min-width: 1050px;
+    max-height: 400px;
 }
 
 .project-detail{
