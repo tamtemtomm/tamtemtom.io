@@ -1,0 +1,69 @@
+.contact{
+    display: flex;
+    flex: 1;
+    padding-top: 300px;
+}
+
+.contact .title-container{
+    width: auto;
+    border-right: 2px solid white;
+    padding: 50px;
+    text-align: left;
+}
+
+#contacts-container{
+    width: 100%;
+    position: relative;
+    margin: 0 50px;
+    border-radius: 50px;
+}
+
+#contacts-container a{
+    text-decoration: none;
+}
+
+.contacts{
+    display: flex;
+    position: absolute;
+}
+
+.contact-logo-container{
+    width: 50px;
+    height: 50px;
+}
+
+.contact-logo{
+    fill: white;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-label{
+    font-size: 22px;
+    color: white;
+    margin-left: 10px;
+    padding-top: 8px;
+}
+
+.contact-ig{
+    top: 50px;
+}
+
+.contact-wa{
+    top: 150px;
+}
+
+.contact-gh{
+    top: 50px;
+    left: 350px
+}
+
+.contact-em{
+    top: 150px;
+    left: 350px;
+}
+
+.contact-em .contact-label{
+    font-size: 18px;
+}

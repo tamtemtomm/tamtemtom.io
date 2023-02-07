@@ -1,0 +1,52 @@
+
+.navbar{
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.nav-title{
+    padding-left: 80px;
+    font-size: 25px;
+    padding-top: 2px;
+    margin-right: 200px;
+    cursor: default;;
+}
+
+.nav-content{
+    display: grid;
+    grid-template-columns: repeat(4, 140px);
+    margin: 0 50px;
+    position: relative;
+    gap : 5px;
+    justify-content: end;
+    /* min-width: 300px; */
+}
+
+.nav-content div{
+    text-align: center;
+    line-height: 40px;
+    float: right;
+    height: 45px;
+    cursor: pointer;
+    justify-self: end;
+    --c:linear-gradient(white 0 0); /* update the color here */
+    padding-bottom: .15em;
+    background: var(--c), var(--c);
+    background-size: .3em .1em;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    transition: .1s linear, background-size .1s .1s linear;
+}
+
+.nav-content div:hover, .nav-content div:focus{
+    background-size: 40% .1em;
+    background-position: 10% 100%, 90% 100%;
+}

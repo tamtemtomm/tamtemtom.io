@@ -1,0 +1,139 @@
+.intro{
+    height: 120vh;
+    background-image: linear-gradient(to bottom, #1A1A1F 50%, #483b65 180%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 200%;
+}
+
+.intro_text{
+    display: flex;
+    min-width: 50%;
+}
+
+.intro-photo{
+    position: relative;
+}
+
+.intro-name-1{
+    
+    font-size: 22px;
+    font-weight: light;
+    color: white;
+    padding-bottom:0;
+    padding-left: 15px; 
+}
+
+.intro-name-1:hover{
+    font-weight: 800;
+    cursor:default
+}
+
+.intro-name-2{
+    position: relative;
+    margin: 40px;
+    font-size: 80px;
+    font-weight: bolder;
+    padding:0;
+    color: white;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 10px;
+}
+
+.intro-name-2:hover{
+    cursor:default
+}
+
+.intro-name-3{
+    font-size: 30px;
+    color: white;
+    padding-bottom:0;
+    padding-left: 15px;
+}
+
+.intro-name-3:hover{
+    font-weight: 600;
+    cursor:default
+}
+
+.qna{
+    display: flex;
+    position: relative;
+    max-width: 550px;
+}
+
+.qna_box{
+    /* border-style: solid;
+    border-width: 2px; */
+    color: var(--color1);
+    background-color: white;
+    border: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-left: 20px;
+    height: 40px;
+    width: 77%;
+    border-radius: 25px;
+    margin-left: 5px;
+    position: relative;
+    z-index:1;
+
+}
+
+::placeholder{
+    color: var(--color5)
+}
+
+.qna-box-click{
+    height: 46px;
+    border-radius: 25px;
+    width: 100px;
+    position: absolute;  
+    bottom: -18px;
+    right: 15%;
+    line-height: 40px;
+    text-align: center;
+    background-color: var(--color2);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index:2;
+}
+
+.qna-box-click:hover{
+   background-color: #101733;
+   transition: 0.5s ease-in;
+}
+
+.logo{
+    scale: .6;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10000px;
+}
+
+#main-logo{
+    right: 100px;
+    top : 240px;
+}
+#main-logo-circle{
+    right: -55px;
+    top : 100px;
+}
+
+#main-logo-circle2{
+    right: -331px;
+    top : -175px;
+    z-index: 0;
+}
+
+#main-logo-circle3{
+    right: -1645px;
+    top : -1500px;
+    z-index: 0;
+}

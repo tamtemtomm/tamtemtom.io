@@ -1,0 +1,6 @@
+.interest{
+    background-color: var(--color4);
+    background-image: linear-gradient(to bottom, var(--color4), var(--color1));
+    padding: 150px 150px;
+    height: 150vh;
+}
