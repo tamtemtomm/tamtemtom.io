@@ -2,7 +2,7 @@
 .project{
     background-color: #4f3b7a;
     background-image: linear-gradient(to bottom, #4f3b7a, var(--color1));
-    height: 240vh;
+    min-height: 240vh;
     padding: 100px 50px 600px 150px;
 }
 
@@ -69,6 +69,7 @@
     color: var(--color5);
     font-weight: bold;
     margin-top: 40px;
+    cursor: default;
 }
 
 #youtube-icon{
@@ -83,6 +84,7 @@
     display: grid;
     width: 100%;
     padding-left: 70px;
+    cursor: default;
 }
 
 
@@ -105,6 +107,7 @@
 
 .project-skill{
     position: relative;
+    padding-bottom: 30px;
 }
 
 .go-container{
@@ -177,18 +180,60 @@
     border-radius: 100%;
 }
 
+.py-container{
+    left: 50px;
+    top: -5px;
+    position: absolute;
+}
+
 .pandas-container{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    top: 45px;
     left: 50px;
     position: absolute;
 }
 
 .numpy-container{
-    width: 150px;
-    height: 150px;
-    top: -50px;
-    left: 200px;
+    width: 100px;
+    height: 100px;
+    top: 13px;
+    left: 150px;
+    position: absolute;
+}
+.mat-container{
+    top: 13px;
+    left: 250px;
+    position: absolute;
+}
+
+.sns-container{
+    top: 55px;
+    left: 50px;
+    position: absolute;
+}
+
+.wc-container{
+    top: 55px;
+    left: 160px;
+    position: absolute;
+}
+
+.scrapy-container{
+    top: 78px;
+    left: 150px;
+    position: absolute;
+}
+
+.bi-container{
+    top: 78px;
+    left: 240px;
+    position: absolute;
+}
+
+.tf-container{
+    top: 45px;
+    left: 255px;
     position: absolute;
 }
 

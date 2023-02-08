@@ -1,7 +1,8 @@
 .contact{
+    padding-top: 300px;
     display: flex;
     flex: 1;
-    padding-top: 300px;
+    height: auto;
 }
 
 .contact .title-container{

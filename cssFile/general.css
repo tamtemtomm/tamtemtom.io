@@ -42,6 +42,7 @@ body{
     text-align: justify;
     display: flex;
     flex-direction: row;
+    cursor: default;
 }
 
 
