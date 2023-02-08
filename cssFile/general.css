@@ -110,15 +110,10 @@ body{
     top: 5em;
     left: calc(50% + 7.5px);
     opacity: 1;
-    background-color: rgba(0,0,0,.1);
+    background-color: white;
     position: absolute;
     width: .5em;
     height: 10em;
-    transition: all .5s ease;
-}
-
-#scrollbarBar:hover{
-    background-color: rgba(255, 255, 255, 0.5);
 }
 
 #scrollcircle1{
@@ -135,4 +130,39 @@ body{
 
 #scrollcircle4{
     top: 14.5em;
+}
+
+.up-container{
+    height: 50px;
+    width: 50px;
+    left: 87px;
+    top: 10px;
+    position: absolute;
+}
+
+.up-container > *{
+    width: 100%;
+    height: 100%;
+}
+
+.down-container{
+    height: 50px;
+    width: 50px;
+    left: 87px;
+    position: absolute;
+    top: 260px;
+}
+
+.down-container > *{
+    width: 100%;
+    height: 100%;
+    rotate: 180deg;
+}
+
+.glow{
+    text-shadow: .75px .75px 2px #fff;
+}
+
+.glowsvg{
+    box-shadow: .75px .75px 2px #fff;;
 }

@@ -81,3 +81,20 @@ function contactButton(){
         behavior: 'smooth'
     });
 }
+
+const logo = document.querySelector('#main-logo');
+const circle1 = document.querySelector('#main-logo-circle');
+const circle2 = document.querySelector('#main-logo-circle2');
+const circle3 = document.querySelector('#main-logo-circle3');
+
+function rotatecircle(){
+    circle1.style.animation = "spin 3s linear infinite";
+    circle2.style.animation = "spin 6s linear infinite";
+    circle3.style.animation = "spin 9s linear infinite";
+}
+
+function unrotatecircle() {
+    circle1.style.animationPlayState = 'paused'
+    circle2.style.animationPlayState = 'paused'
+    circle3.style.animationPlayState = 'paused'
+}

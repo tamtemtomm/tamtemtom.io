@@ -120,6 +120,7 @@
 #main-logo{
     right: 100px;
     top : 240px;
+    z-index: 10;
 }
 #main-logo-circle{
     right: -55px;
@@ -134,4 +135,28 @@
 #main-logo-circle3{
     right: -1645px;
     top : -1500px;
+}
+
+@-webkit-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@-moz-keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@keyframes spin {
+    100%{-webkit-transform: rotate(360deg);}
+}
+
+@-webkit-keyframes unspin {
+    100%{-webkit-transform: rotate(0deg);}
+}
+
+@-moz-keyframes unspin {
+    100%{-webkit-transform: rotate(0deg);}
+}
+
+@keyframes unspin {
+    100%{-webkit-transform: rotate(0deg);}
 }

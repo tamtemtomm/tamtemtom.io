@@ -2,7 +2,7 @@
 .project{
     background-color: #4f3b7a;
     background-image: linear-gradient(to bottom, #4f3b7a, var(--color1));
-    min-height: 240vh;
+    min-height: 270vh;
     padding: 100px 50px 600px 150px;
 }
 
@@ -64,6 +64,7 @@
 
 .project-icon-label{
     margin: auto;
+    width: 300px;
     max-width: 330px;
     font-size: 24px;
     color: var(--color5);
@@ -89,7 +90,7 @@
 
 
 .project-text{
-    padding: 40px 50px 10px 50px;
+    padding: 40px 50px 10px 30px;
     font-size: 20px;
     text-align: justify;
     color: var(--color5);
@@ -107,7 +108,7 @@
 
 .project-skill{
     position: relative;
-    padding-bottom: 30px;
+    padding: 30px 0 30px 30px;
 }
 
 .go-container{
@@ -186,61 +187,12 @@
     position: absolute;
 }
 
-.pandas-container{
-    width: 100px;
-    height: 100px;
-    top: 45px;
-    left: 50px;
-    position: absolute;
+.skill{
+    display: inline;
+    padding: 5px 7px;
+    background-color: #4f3b7a;
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-right:  5px;
 }
-
-.numpy-container{
-    width: 100px;
-    height: 100px;
-    top: 13px;
-    left: 150px;
-    position: absolute;
-}
-.mat-container{
-    top: 13px;
-    left: 250px;
-    position: absolute;
-}
-
-.sns-container{
-    top: 55px;
-    left: 50px;
-    position: absolute;
-}
-
-.wc-container{
-    top: 55px;
-    left: 160px;
-    position: absolute;
-}
-
-.scrapy-container{
-    top: 78px;
-    left: 150px;
-    position: absolute;
-}
-
-.bi-container{
-    top: 78px;
-    left: 240px;
-    position: absolute;
-}
-
-.tf-container{
-    top: 45px;
-    left: 255px;
-    position: absolute;
-}
-
-.numpy-logo{
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
-
-
