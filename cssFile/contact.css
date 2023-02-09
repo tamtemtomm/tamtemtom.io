@@ -1,6 +1,5 @@
 .contact{
     display: flex;
-    flex: 1;
     height: 50vh;
     align-items: end;
 }
@@ -10,16 +9,13 @@
     border-right: 6px solid white;
     padding: 0 50px 10px 0;
     text-align: left;
-    align-items: center;
-    padding-left: 0;
 }
 
 #contacts-container{
-    width: 100%;
+    flex : 1;
     height: 220px;
     position: relative;
     margin: 0 50px;
-    border-radius: 50px;
 }
 
 #contacts-container a{

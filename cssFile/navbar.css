@@ -1,11 +1,10 @@
 
 .navbar{
-    height: 80px;
     position: fixed;
     z-index: 10;
     width: 100%;
     display: grid;
-    grid-template-columns: 450px 1fr;
+    grid-template-columns: 650px 1fr;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -16,18 +15,15 @@
     padding-left: 80px;
     font-size: 25px;
     padding-top: 2px;
-    margin-right: 200px;
-    cursor: default;;
+    cursor: default;
 }
 
 .nav-content{
-    display: grid;
-    grid-template-columns: repeat(4, 140px);
-    margin: 0 50px;
+    margin-right: 50px;
+    display: flex;
+    gap: 80px;
     position: relative;
-    gap : 5px;
     justify-content: end;
-    /* min-width: 300px; */
 }
 
 .nav-content div{
@@ -49,4 +45,42 @@
 .nav-content div:hover, .nav-content div:focus{
     background-size: 40% .1em;
     background-position: 10% 100%, 90% 100%;
+}
+
+@media (max-width: 450px){
+    .navbar{
+        grid-template-columns: 650px 1fr;
+        color: white;
+        font-size: 18px;
+        padding: 30px 0 0 50px;
+    }
+    
+    .nav-title{
+        padding: 0;
+        font-size: 12px;
+        padding-top: 2px;
+    }
+    
+    .nav-content{
+        margin-right: 50px;
+        gap: 80px;
+    }
+    
+    .nav-content div{
+        line-height: 40px;
+        float: right;
+        height: 45px;
+        --c:linear-gradient(white 0 0); /* update the color here */
+        padding-bottom: .15em;
+        background: var(--c), var(--c);
+        background-size: .3em .1em;
+        background-position:50% 100%;
+        background-repeat: no-repeat;
+        transition: .1s linear, background-size .1s .1s linear;
+    }
+    
+    .nav-content div:hover, .nav-content div:focus{
+        background-size: 40% .1em;
+        background-position: 10% 100%, 90% 100%;
+    }
 }

@@ -27,21 +27,15 @@ body{
     padding: 30px;
     box-sizing: border-box;
     padding-left: 11%;
-    padding-top: 25%;
 }
 
 .title-container{
     font-size: 60px;
     font-weight: bold;
-    margin-top: 50px;
-    height: 80px;
     width: 10%;
-    padding-top: 20px;
-    line-height:  200%;
     color: white;
     text-align: justify;
     display: flex;
-    flex-direction: row;
     cursor: default;
 }
 
@@ -165,4 +159,12 @@ body{
 
 .glowsvg{
     box-shadow: .75px .75px 2px #fff;;
+}
+
+
+/* QUERYYY Oh GOD! */
+
+@media (max-width: 450px){
+    .title-container{
+        font-size: 30px;}
 }
