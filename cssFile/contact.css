@@ -67,3 +67,54 @@
 .contact-em .contact-label{
     font-size: 18px;
 }
+
+@media (max-width:450px){
+    .contact{
+        height: 30vh;
+    }
+    
+    .contact .title-container{
+        border-right: 6px solid white;
+        padding: 0 10px 10px 0;
+        font-size: 17px;
+    }
+    
+    #contacts-container{
+        height: 60px;
+        margin: 0 15px;
+    }
+    
+    .contact-logo-container{
+        width: 15px;
+        height: 1px;
+    }
+    
+    .contact-label{
+        font-size: 8px;
+        margin-left: 5px;
+        align-items: start;
+        padding-top: 2px;
+    }
+    
+    .contact-ig{
+        top: 0px;
+    }
+    
+    .contact-wa{
+        top: 40px;
+    }
+    
+    .contact-gh{
+        top: 0px;
+        left: 120px
+    }
+    
+    .contact-em{
+        top: 40px;
+        left: 120px;
+    }
+    
+    .contact-em .contact-label{
+        font-size: 5px;
+    }
+}

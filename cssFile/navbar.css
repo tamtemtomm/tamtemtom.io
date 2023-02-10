@@ -84,3 +84,18 @@
         background-position: 10% 100%, 90% 100%;
     }
 }
+
+@media (max-width: 450px){
+    .navbar{
+        max-width: 300px;
+    }
+
+    html{
+        overflow-x: hidden scroll;
+    }
+
+    body {
+        width: auto!important; 
+        overflow-x: hidden!important
+    }
+}
