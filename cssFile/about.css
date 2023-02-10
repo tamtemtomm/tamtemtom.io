@@ -53,6 +53,21 @@
     }
 }
 
+@media (max-width: 975px) and (orientation: landscape) {
+    .about{
+        height: 100vh;
+    }
+    
+    .about .content{
+        padding-top: 20px;
+    }
+    
+    .text{
+        font-size: 20px;
+        max-width: 450px;
+    }
+}
+
 @media (max-width: 800px){
     .about{
         height: 80vh;
@@ -88,11 +103,12 @@
     .text{
         font-size: 10px; 
         margin-right: 0;
-        max-width: 250px;
+        max-width: 200px;
     }
 
     .about{
         height: 40vh;
+        padding-left: 45px;
     }
 
     .about .content{

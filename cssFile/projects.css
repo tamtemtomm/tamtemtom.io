@@ -267,6 +267,11 @@
     }
 }
 
+@media (max-width: 975px) and (orientation: landscape) {
+    .project{
+        min-height: 370vh;}
+}
+
 @media (max-width: 780px){
     .project{
         min-height: 200vh;
@@ -446,7 +451,7 @@
     }
     
     .project-text{
-        padding: 40px 30px 0 0;
+        padding: 20px 30px 0 0;
         font-size: 9px;
     }
     
@@ -457,7 +462,7 @@
     }
     
     .project-skill{
-        padding-top: 20px;
+        padding: 20px 0;
     }
     
     .project-skill > div{
@@ -470,8 +475,8 @@
         height: 20px;
         border-radius: 100px;
         padding: 15px;
-        right: 5px;
-        bottom: -18%;
+        right: 10px;
+        bottom: 5%;
     }
     
     .skill{

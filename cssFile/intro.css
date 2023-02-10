@@ -280,6 +280,12 @@
     }
 }
 
+@media (max-width: 975px) and (orientation=landscape){
+    .intro{
+        height: 150vh;
+    }
+}
+
 @media (max-width: 800px){
     .intro{
         height: 101vh;
@@ -454,7 +460,7 @@
         width: 30px;
         font-size: 10px;
         position: absolute;  
-        right: 12%;
+        right: 0;
         padding: 5px 7px;
     }
     
@@ -469,22 +475,22 @@
     
     #main-logo{
         scale: .15;
-        right: -70px;
-        top : -80px;
+        right: -90px;
+        top : -40px;
         z-index: 10;
     }
     #main-logo-circle{
-        right: -226px;
-        top : -205px;
+        right: -246px;
+        top : -165px;
     }
     
     #main-logo-circle2{
-        right: -502px;
-        top : -481px;
+        right: -522px;
+        top : -441px;
     }
     
     #main-logo-circle3{
-        right: -1813px;
-        top : -1797px;
+        right: -1833px;
+        top : -1757px;
     }
 }
