@@ -280,11 +280,6 @@
     }
 }
 
-@media (max-width: 975px) and (orientation=landscape){
-    .intro{
-        height: 150vh;
-    }
-}
 
 @media (max-width: 800px){
     .intro{
@@ -492,5 +487,11 @@
     #main-logo-circle3{
         right: -1833px;
         top : -1757px;
+    }
+}
+
+@media (max-width: 975px) and (orientation=landscape){
+    .intro{
+        height: 150vh;
     }
 }
