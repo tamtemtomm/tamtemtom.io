@@ -68,9 +68,210 @@
     font-size: 18px;
 }
 
+@media (max-width:1200px){
+    .contact{
+        height: 50vh;
+    }
+    
+    .contact .title-container{
+        border-right: 6px solid white;
+        padding: 0 40px 10px 0;
+        font-size: 45px;
+    }
+    
+    #contacts-container{
+        height: 205px;
+        margin: 0 30px;
+    }
+    
+    .contact-logo-container{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .contact-label{
+        font-size: 22px;
+        margin-left: 10px;
+        padding-top: 8px;
+    }
+    
+    .contact-ig{
+        top: 80px;
+    }
+    
+    .contact-wa{
+        top: 170px;
+    }
+    
+    .contact-gh{
+        top: 80px;
+        left: 290px
+    }
+    
+    .contact-em{
+        top: 170px;
+        left: 290px;
+    }
+    
+    .contact-em .contact-label{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 975px){
+    .contact{
+        height: 50vh;
+    }
+    
+    .contact .title-container{
+        border-right: 6px solid white;
+        padding: 0 30px 10px 0;
+        font-size: 45px;
+    }
+    
+    #contacts-container{
+        height: 205px;
+        margin: 0 30px;
+    }
+    
+    .contact-logo-container{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .contact-label{
+        font-size: 17px;
+        margin-left: 10px;
+        padding-top: 8px;
+    }
+    
+    .contact-ig{
+        top: 100px;
+    }
+    
+    .contact-wa{
+        top: 170px;
+    }
+    
+    .contact-gh{
+        top: 100px;
+        left: 220px
+    }
+    
+    .contact-em{
+        top: 170px;
+        left: 220px;
+    }
+    
+    .contact-em .contact-label{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 800px){
+    .contact{
+        height: 40vh;
+    }
+    
+    .contact .title-container{
+        border-right: 6px solid white;
+        padding: 0 30px 10px 0;
+        font-size: 33px;
+    }
+    
+    #contacts-container{
+        height: 205px;
+        margin: 0 20px;
+    }
+    
+    .contact-logo-container{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .contact-label{
+        font-size: 13px;
+        margin-left: 10px;
+        padding-top: 1px;
+    }
+    
+    .contact-ig{
+        top: 130px;
+    }
+    
+    .contact-wa{
+        top: 180px;
+    }
+    
+    .contact-gh{
+        top: 130px;
+        left: 190px
+    }
+    
+    .contact-em{
+        top: 180px;
+        left: 190px;
+    }
+    
+    .contact-em .contact-label{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 650px){
+    .contact{
+        height: 40vh;
+    }
+    
+    .contact .title-container{
+        border-right: 6px solid white;
+        padding: 0 10px 10px 0;
+        font-size: 24px;
+    }
+    
+    #contacts-container{
+        height: 205px;
+        margin: 0 20px;
+    }
+    
+    .contact-logo-container{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .contact-label{
+        font-size: 9px;
+        margin-left: 10px;
+        padding-top: 4px;
+    }
+    
+    .contact-ig{
+        top: 130px;
+    }
+    
+    .contact-wa{
+        top: 180px;
+    }
+    
+    .contact-gh{
+        top: 130px;
+        left: 120px
+    }
+    
+    .contact-em{
+        top: 180px;
+        left: 120px;
+    }
+    
+    .contact-em .contact-label{
+        font-size: 7px;
+    }
+}
+
+
 @media (max-width:450px){
     .contact{
-        height: 30vh;
+        height: 40vh;
     }
     
     .contact .title-container{

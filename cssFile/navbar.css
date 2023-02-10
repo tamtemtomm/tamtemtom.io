@@ -47,44 +47,106 @@
     background-position: 10% 100%, 90% 100%;
 }
 
-@media (max-width: 450px){
+@media (max-width:1200px){
     .navbar{
-        position: fixed;
-        z-index: 10;
-        width: 300px;
-        display: grid;
-        grid-template-columns: 100px 1fr;
-        color: white;
-        font-size: 9px;
-        padding: 30px 0 0 30px;
+        grid-template-columns: 400px 1fr;
+    }
+
+    .nav-content div{
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 975px){
+    .navbar{
+        grid-template-columns: 400px 1fr;
+        font-size: 14px;
+        padding-top: 30px;
     }
     
     .nav-title{
-        padding-left: 0px;
-        font-size: 14px;
-        padding-top: 2px;
         cursor: default;
+        font-size: 25px;
     }
     
     .nav-content{
-        margin-right: 0px;
-        margin-left: 30px;
-        gap: 26px;
-        position: relative;
-        justify-content: end;
+        margin-right: 27px;
+        gap: 60px;
     }
     
     .nav-content div{
-        text-align: center;
-        line-height: 23px;
-        float: right;
-        height: 25px;
-        cursor: pointer;
-        justify-self: end;
+        line-height: 40px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 800px){
+    .navbar{
+        grid-template-columns: 200px 1fr;
+        font-size: 14px;
+        padding-top: 30px;
     }
     
-    .nav-content div:hover, .nav-content div:focus{
-        background-size: 40% .1em;
-        background-position: 10% 100%, 90% 100%;
+    .nav-title{
+        cursor: default;
+        font-size: 20px;
+    }
+    
+    .nav-content{
+        margin-right: 22px;
+        gap: 40px;
+    }
+    
+    .nav-content div{
+        line-height: 30px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 650px){
+    .navbar{
+        grid-template-columns: 200px 1fr;
+        font-size: 11px;
+        padding-top: 30px;
+    }
+    
+    .nav-title{
+        cursor: default;
+        font-size: 16px;
+        padding: 2px 0 0 50px ;
+    }
+    
+    .nav-content{
+        margin-right: 22px;
+        gap: 30px;
+    }
+    
+    .nav-content div{
+        line-height: 20px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 450px){
+    .navbar{
+        grid-template-columns: 100px 1fr;
+        font-size: 9px;
+        padding-top: 30px;
+    }
+    
+    .nav-title{
+        cursor: default;
+        font-size: 13px;
+        padding: 2px 0 0 30px ;
+    }
+    
+    .nav-content{
+        margin-right: 18px;
+        gap: 20px;
+    }
+    
+    .nav-content div{
+        line-height: 20px;
+        height: 25px;
     }
 }

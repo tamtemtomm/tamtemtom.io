@@ -76,9 +76,9 @@
     border-radius: 25px;
     width: 100px;
     position: absolute;  
-    bottom:0;
+    bottom:-1px;
     right: 15%;
-    padding: 11px 0;
+    padding: 12px 0;
     text-align: center;
     background-color: var(--color2);
     color: white;
@@ -142,6 +142,276 @@
     100%{-webkit-transform: rotate(0deg);}
 }
 
+@media (max-width:1200px){
+    .intro{
+        height: 101vh;
+        width: 200%;
+        padding-top: 40%;
+    }
+    
+    .intro-name-1{
+        font-size: 20px;
+        padding-left: 15px; 
+    }
+    
+    .intro-name-2{
+        font-size: 70px;
+        padding-left: 10px;
+    }
+    
+    .intro-name-3{
+        font-size: 25px;
+        padding-left: 15px;
+    }
+    
+    .qna{
+        max-width: 550px;
+    }
+    
+    .qna_box{
+        border: 0;
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 10px 0 10px 20px;
+        width: 87%;
+        border-radius: 25px;
+        margin-left: 5px;
+    }
+    
+    .qna-box-click{
+        border-radius: 25px;
+        width: 100px;
+        bottom:-1px;
+        right: 0%;
+        padding: 12px 0;
+    }
+    
+    .logo{
+        scale: .4;
+    }
+    
+    #main-logo{
+        right: 100px;
+        top : 200px;
+    }
+    #main-logo-circle{
+        right: -55px;
+        top : 80px;
+    }
+    
+    #main-logo-circle2{
+        right: -331px;
+        top : -195px;
+    }
+    
+    #main-logo-circle3{
+        right: -1645px;
+        top : -1510px;
+    }
+}
+
+
+
+@media (max-width: 975px){
+    .intro{
+        height: 101vh;
+        width: 200%;
+        padding-top: 45%;
+    }
+    
+    .intro-name-1{
+        font-size: 18px;
+        padding-left: 15px; 
+    }
+    
+    .intro-name-2{
+        font-size: 60px;
+        padding-left: 10px;
+    }
+    
+    .intro-name-3{
+        font-size: 22px;
+        padding-left: 15px;
+    }
+    
+    .qna{
+        max-width: 750px;
+    }
+    
+    .qna_box{
+        border: 0;
+        margin-top: 20px;
+        font-size: 18px;
+        padding: 10px 0 10px 20px;
+        width: 100%;
+        border-radius: 25px;
+        margin-left: 5px;
+    }
+    
+    .qna-box-click{
+        border-radius: 25px;
+        width: 100px;
+        bottom:-1px;
+        right: -10%;
+        padding: 12px 0;
+    }
+    
+    .logo{
+        scale: .4;
+    }
+    
+    #main-logo{
+        right: 0px;
+        top : 110px;
+    }
+    #main-logo-circle{
+        right: -155px;
+        top : -20px;
+    }
+    
+    #main-logo-circle2{
+        right: -431px;
+        top : -295px;
+    }
+    
+    #main-logo-circle3{
+        right: -1745px;
+        top : -1610px;
+    }
+}
+
+@media (max-width: 800px){
+    .intro{
+        height: 101vh;
+        width: 200%;
+        padding-top: 60%;
+    }
+    
+    .intro-name-1{
+        font-size: 18px;
+        padding-left: 15px; 
+    }
+    
+    .intro-name-2{
+        font-size: 50px;
+        padding-left: 10px;
+    }
+    
+    .intro-name-3{
+        font-size: 22px;
+        padding-left: 15px;
+    }
+    
+    
+    .qna_box{
+        border: 0;
+        margin-top: 20px;
+        font-size: 15px;
+        padding: 10px 0 10px 20px;
+        width: 250px;
+        border-radius: 25px;
+        margin-left: 5px;
+    }
+    
+    .qna-box-click{
+        border-radius: 25px;
+        width: 100px;
+        bottom:-1px;
+        right: -10%;
+        padding: 12px 0;
+        font-size: 15px;
+    }
+    
+    .logo{
+        scale: .38;
+    }
+    
+    #main-logo{
+        right: -10px;
+        top : 100px;
+    }
+    #main-logo-circle{
+        right: -165px;
+        top : -30px;
+    }
+    
+    #main-logo-circle2{
+        right: -441px;
+        top : -305px;
+    }
+    
+    #main-logo-circle3{
+        right: -1755px;
+        top : -1620px;
+    }
+}
+
+@media (max-width: 650px){
+    .intro{
+        height: 80vh;
+        width: 200%;
+        padding-top: 70%;
+    }
+    
+    .intro-name-1{
+        font-size: 15px;
+        padding-left: 9px; 
+    }
+    
+    .intro-name-2{
+        font-size: 40px;
+        padding-left: 4px;
+    }
+    
+    .intro-name-3{
+        font-size: 18px;
+        padding-left: 9px;
+    }
+    
+    
+    .qna_box{
+        border: 0;
+        margin-top: 20px;
+        font-size: 12px;
+        padding: 8px 0 8px 10px;
+        width: 200px;
+        border-radius: 25px;
+        margin-left: 5px;
+    }
+    
+    .qna-box-click{
+        border-radius: 25px;
+        width: 70px;
+        bottom:-1px;
+        right: -10%;
+        padding: 8px 0;
+        font-size: 12px;
+    }
+    
+    .logo{
+        scale: .28;
+    }
+    
+    #main-logo{
+        right: -80px;
+        top : 20px;
+    }
+    #main-logo-circle{
+        right: -235px;
+        top : -110px;
+    }
+    
+    #main-logo-circle2{
+        right: -511px;
+        top : -385px;
+    }
+    
+    #main-logo-circle3{
+        right: -1825px;
+        top : -1700px;
+    }
+}
+
 @media (max-width: 450px){
     .intro{
         width: 100%;
@@ -172,8 +442,6 @@
     }
     
     .qna_box{
-        color: var(--color1);
-        background-color: white;
         border: 0;
         margin-top: 10px;
         font-size: 10px;
