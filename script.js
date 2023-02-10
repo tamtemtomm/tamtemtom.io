@@ -55,17 +55,33 @@ function homeButton(){
 }
 
 function aboutButton(){
+    if (screen.width < 450){
+        window.scrollTo({
+            top: 400,
+            behavior: 'smooth'
+        });
+    }
+    
+    else{
     window.scrollTo({
         top: 800,
         behavior: 'smooth'
-    });
+    })}
 }
 
 function projectButton(){
+    if (screen.width < 450){
+        window.scrollTo({
+            top: 800,
+            behavior: 'smooth'
+        });
+    }
+    
+    else{
     window.scrollTo({
-        top: 1650,
+        top: 1400,
         behavior: 'smooth'
-    });
+    })}
 }
 
 function interestButton(){
@@ -98,3 +114,9 @@ function unrotatecircle() {
     circle2.style.animationPlayState = 'paused'
     circle3.style.animationPlayState = 'paused'
 }
+
+console.log(screen.height)
+console.log(window.innerHeight)
+
+console.log(screen.width)
+console.log(window.innerWidth)
